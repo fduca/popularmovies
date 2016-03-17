@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="storm-1.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/ru.noties/storm/1.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/ru.noties/storm/1.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.noties/storm/1.0.3/4c4bc8e7a94724b9acafd26e17bdbd742ade87f/storm-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

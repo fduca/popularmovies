@@ -1,0 +1,20 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:orientation="vertical"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/movie_title"
+              style="@style/MovieDetailTitle"/>
+    <ListView
+            android:id="@+id/reviews_view"
+            android:scrollbars="vertical"
+            tools:listheader="@layout/header_details"
+            android:padding="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
